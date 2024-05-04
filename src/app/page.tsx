@@ -205,7 +205,7 @@ export default function Home() {
             Create your gym workout sessions, Track your progress, and enjoy the
             gains made with Nasium.
           </p>
-          <div className="flex gap-8 md:mb-64 sm:mb-48 mb-16">
+          <div className="flex sm:gap-8 gap-4 md:mb-64 sm:mb-48 mb-16">
             <Button
               component={Link}
               href="https://nasium.coach/"
