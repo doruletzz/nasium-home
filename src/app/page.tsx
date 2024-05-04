@@ -118,56 +118,56 @@ const ARTICLES = [
     title: "The Upper/Lower Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/upper-lower-split.jpg",
   },
   {
     slug: "article/push-pull-legs-split",
     title: "The Push/Pull/Legs Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/push-pull-legs-split.jpg",
   },
   {
     slug: "article/bro-split",
     title: "The Bro Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/bro-split.jpg",
   },
   {
     slug: "article/full-body-split",
     title: "The Full Body Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/fullbody-split.jpg",
   },
   {
     slug: "article/5x5-split",
     title: "The 5x5 Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/5x5-split.jpg",
   },
   {
     slug: "article/minimalist-split",
     title: "The Minimalist Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/minimalist-split.jpg",
   },
   {
     slug: "article/minimalist-split",
     title: "The At-Home Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/at-home-split.jpg",
   },
   {
     slug: "article/functional-split",
     title: "The Functional Split",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
-    image: "/workout-tab.png",
+    image: "/functional-split.jpg",
   },
 ];
 
@@ -347,7 +347,7 @@ export default function Home() {
               key={title}
               component={Link}
               href={slug}
-              className="overflow-hidden group flex w-full flex-col gap-2 sm:p-8 p-6 pb-0"
+              className="overflow-hidden group flex w-full flex-col gap-2 sm:p-8 p-6 pb-0 sm:pb-0"
             >
               <h6 className="font-display">{title}</h6>
               <p className="text-xs leading-normal text-gray-500 mb-8">
@@ -358,7 +358,7 @@ export default function Home() {
                 alt={title}
                 width={320}
                 height={320}
-                className="translate-y-2 group-hover:translate-y-0 transition-transform duration-700 ease-in-out-expo mt-auto"
+                className="translate-y-3 shadow-xl group-hover:translate-y-0.5 transition-transform duration-700 ease-in-out-expo mt-auto rounded-t-2xl mx-auto object-cover max-h-[18rem] border border-gray-600"
               />
             </Card>
           ))}

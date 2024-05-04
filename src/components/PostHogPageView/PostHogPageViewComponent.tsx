@@ -16,7 +16,6 @@ export default function PostHogPageViewComponent() {
         url = url + `?${searchParams.toString()}`;
       }
       posthog.capture("$pageview", {
-        $page_type: "landing page",
         $current_url: url,
       });
     }
