@@ -89,7 +89,7 @@ const FeatureCarouselSectionComponent = ({ features }: Props) => {
         {features.map(({ title, image, body }, i) => (
           <Card
             className={cn(
-              "group flex flex-col 2xl:min-h-[27rem] sm:min-h-[32rem] min-h-[24rem] snap-proximity snap-center 2xl:min-w-[48rem] md:min-w-[32rem] sm:min-w-[24rem] min-w-[18rem] md:max-w-[32rem] sm:p-12 p-6 overflow-hidden",
+              "group flex flex-col 2xl:min-h-[27rem] sm:min-h-[32rem] min-h-[24rem] relative snap-proximity snap-center 2xl:min-w-[48rem] md:min-w-[32rem] sm:min-w-[24rem] min-w-[18rem] md:max-w-[32rem] sm:p-12 p-6 overflow-hidden",
               i === 0 && !isScrollToCarousel && "lg:invisible visible"
             )}
             key={i}
