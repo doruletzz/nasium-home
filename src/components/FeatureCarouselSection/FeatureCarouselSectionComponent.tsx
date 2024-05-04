@@ -53,9 +53,9 @@ const FeatureCarouselSectionComponent = ({ features }: Props) => {
             />
 
             <div className="flex flex-col gap-4 2xl:ml-80 ml-0 z-10 shadow-sm">
-              <h6 className="sm:text-2xl text-xl font-display tracking-tight">
+              <span className="sm:text-2xl text-xl font-display tracking-tight">
                 {features[0].title}
-              </h6>
+              </span>
               {features[0].body}
             </div>
           </Card>
@@ -65,7 +65,7 @@ const FeatureCarouselSectionComponent = ({ features }: Props) => {
             <Card className="flex-1 sm:p-12 p-6 justify-end flex flex-col">
               <p className="opacity-50 text-xs mb-auto lg:mb-0">Exercise Dataset</p>
 
-              <h6 className="lg:text-7xl text-5xl font-display">900+</h6>
+              <span className="lg:text-7xl text-5xl font-display">900+</span>
             </Card>
             <Card className="flex-1 flex flex-col gap-4 sm:p-12 p-6 ">
               <p className="text-xs opacity-50">You can use the app in</p>
@@ -103,7 +103,7 @@ const FeatureCarouselSectionComponent = ({ features }: Props) => {
             />
 
             <div className="flex flex-col gap-4 2xl:ml-80 ml-0 z-10 shadow-sm">
-              <h6 className="sm:text-2xl text-xl font-display tracking-tight">{title}</h6>
+              <span className="sm:text-2xl text-xl font-display tracking-tight">{title}</span>
               {body}
             </div>
           </Card>

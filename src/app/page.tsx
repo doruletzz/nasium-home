@@ -220,9 +220,9 @@ export default function Home() {
           </div>
 
           <Card className="group sm:h-[34rem] h-full w-full flex flex-col gap-6 sm:p-12 p-6 mt-auto overflow-hidden">
-            <h6 className="font-display max-w-xs sm:text-2xl text-xl">
+            <h2 className="font-display max-w-xs sm:text-2xl text-xl">
               Track Progress with Nasium!
-            </h6>
+            </h2>
             <ul className="leading-loose text-gray-500 sm:text-sm text-md grid gap-2 sm:grid-cols-2 grid-cols-1 font-semibold">
               <li className="flex items-center gap-2">
                 <FontAwesomeIcon width={14} icon={faPenNib} />
@@ -335,7 +335,7 @@ export default function Home() {
       </div>
       <FeatureCarouselSection features={CONTENT} />
       <section className=" xl:px-48 lg:px-12 px-4 sm:px-8 md:px-12  flex gap-2 flex-col my-24">
-        <h6 className="text-3xl font-display">Our Templates, Explained</h6>
+        <h2 className="text-3xl font-display">Our Templates, Explained</h2>
         <p className="text-gray-500 mb-12 text-sm max-w-lg leading-normal">
           Train smart by planning your workouts. Choose your split and get
           started with your workout right away. We&apos;ve provided some of the most
@@ -349,7 +349,7 @@ export default function Home() {
               href={slug}
               className="overflow-hidden group flex w-full flex-col gap-2 sm:p-8 p-6 pb-0 sm:pb-0"
             >
-              <h6 className="font-display">{title}</h6>
+              <span className="font-display">{title}</span>
               <p className="text-xs leading-normal text-gray-500 mb-8">
                 {description}
               </p>
@@ -368,9 +368,9 @@ export default function Home() {
         <div className="flex gap-4 lg:flex-row flex-col">
           <Card className="basis-2/3 flex flex-col gap-4 sm:p-12 p-6">
             <div className="flex-1 flex flex-col gap-2">
-              <h6 className="sm:text-2xl text-xl font-display">
+              <h3 className="sm:text-2xl text-xl font-display">
                 Additional Info
-              </h6>
+              </h3>
               <p className="text-sm leading-normal max-w-sm text-gray-500 mb-8">
                 Check our short articles, and if you still have any questions
                 feel free to get in touch!
@@ -422,9 +422,9 @@ export default function Home() {
               className="absolute left-1/3 top-1/4 -rotate-45 text-indigo-950 -z-10 text-opacity-50"
             />
             <div className="flex-1 flex flex-col gap-2">
-              <h6 className="sm:text-2xl text-xl font-display">
+              <span className="sm:text-2xl text-xl font-display">
                 Gym with Nasium
-              </h6>
+              </span>
               <p className="text-sm leading-normal text-gray-500">
                 Going to the gym is the first step, take your next step with
                 Nasium!
@@ -466,7 +466,7 @@ export default function Home() {
             src="/app-store.png"
           />
         </div>
-        <h4 className="text-3xl font-display">Ready To Start?</h4>
+        <h2 className="text-3xl font-display">Ready To Start?</h2>
         <p className="text-sm max-w-sm leading-normal text-center text-gray-500 mb-8">
           You can start by downloading our App, or by adding our App to your
           mobile desktop!
