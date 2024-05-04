@@ -46,8 +46,8 @@ const FeatureCarouselSectionComponent = ({ features }: Props) => {
           >
             <Image
               alt="session-illustration"
-              width={220}
-              height={480}
+              width={490}
+              height={430}
               src={features[0].image}
               className="absolute 2xl:left-0 left-1/2 2xl:-translate-x-1/3 -translate-x-1/2 2xl:group-hover:translate-y-0 group-hover:translate-y-1/3 2xl:group-hover:-translate-x-1/4 transition-transform duration-[1300ms] ease-in-out-expo ml-6 top-4 2xl:translate-y-0 translate-y-1/2 -bottom-4 p-4 2xl:h-full 2xl:w-auto h-auto w-full"
             />
@@ -96,8 +96,8 @@ const FeatureCarouselSectionComponent = ({ features }: Props) => {
           >
             <Image
               alt="session-illustration"
-              width={220}
-              height={480}
+              width={490}
+              height={430}
               src={image}
               className="absolute 2xl:left-0 left-1/2 2xl:-translate-x-1/3 -translate-x-1/2 2xl:group-hover:translate-y-0 group-hover:translate-y-1/4 2xl:group-hover:-translate-x-1/4 transition-transform duration-[1300ms] ease-in-out-expo 2xl:ml-6 lg:top-4 2xl:translate-y-0 translate-y-1/2 -bottom-4 sm:p-4 2xl:h-full 2xl:w-auto h-auto w-full"
             />
