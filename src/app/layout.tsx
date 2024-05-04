@@ -20,6 +20,9 @@ const archivo = Archivo_Black({
 export const metadata: Metadata = {
   title: "Nasium - Modern Gym Tracking App",
   description: "Gym tracking app",
+  verification: {
+    google: 'yHCW3PG8xbXFX4lRTKAIe6sz'
+  }
 };
 
 const PostHogPageView = dynamic(
