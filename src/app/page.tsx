@@ -356,8 +356,8 @@ export default function Home() {
               <Image
                 src={image}
                 alt={title}
-                width={320}
-                height={320}
+                width={230}
+                height={290}
                 className="translate-y-3 shadow-xl group-hover:translate-y-0.5 transition-transform duration-700 ease-in-out-expo mt-auto rounded-t-2xl mx-auto object-cover max-h-[18rem] border border-gray-600"
               />
             </Card>
