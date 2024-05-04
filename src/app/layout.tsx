@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Nasium - Modern Gym Tracking App",
   description: "Gym tracking app",
   verification: {
-    google: 'yHCW3PG8xbXFX4lRTKAIe6sz'
+    google: 'yHCW3PG8xbXFX4lRTKAIe6szJG08IoihRAJoR_iiaQM'
   }
 };
 
