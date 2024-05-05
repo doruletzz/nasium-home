@@ -74,6 +74,18 @@ body {
   @apply visible;
 }
 
+.prose table {
+  width: 100%;
+  text-align: left;
+}
+
+.prose td, .prose th {
+  border: 0.6px solid #fefefe;
+  padding: 0.2rem 0.4rem;
+}
+
+.prose 
+
 .prose a {
   @apply underline transition-all decoration-neutral-600 underline-offset-2 decoration-[0.1em];
 }

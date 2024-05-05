@@ -100,7 +100,7 @@ export default function Article({ params }: { params: { slug: string } }) {
           </article>
         </div>
         <div className="flex flex-col gap-4 w-64 h-96">
-          <div className="w-full text-sm text-gray-500">Share this Article</div>
+          {/* <div className="w-full text-sm text-gray-500">Share this Article</div>
           <Button id="pinterset" className="w-auto block text-left">
             Pinterest
           </Button>
@@ -110,7 +110,7 @@ export default function Article({ params }: { params: { slug: string } }) {
           <Button id="twitter" className="w-auto block text-left">
             Twitter
           </Button>
-          <br />
+          <br /> */}
           <div className="w-full text-sm text-gray-500">Try Nasium</div>
           <Link
             target="_blank"
