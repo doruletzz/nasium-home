@@ -44,19 +44,19 @@ const FooterComponent = () => {
       </Link>
       <Link
         className="text-sm opacity-75 hover:opacity-100 hover:-translate-y-0.5"
-        href="/onboarding"
+        href="/article"
       >
         Articles
       </Link>
-      <Link
+      {/* <Link
         className="text-sm opacity-75 hover:opacity-100 hover:-translate-y-0.5"
-        href="/onboarding"
+        href="/pricing"
       >
         Pricing
-      </Link>
+      </Link> */}
       <Link
         className="text-sm opacity-75 hover:opacity-100 hover:-translate-y-0.5"
-        href="/onboarding"
+        href="/about"
       >
         About
       </Link>

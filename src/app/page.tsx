@@ -404,7 +404,7 @@ export default function Home() {
                   Track Progress
                 </span>
               </Link>
-              <Link
+              {/* <Link
                 href="/pricing"
                 className="flex gap-2 hover:underline items-center group font-semibold h-7"
               >
@@ -412,7 +412,7 @@ export default function Home() {
                 <span className="group-hover:translate-x-2 transition-transform duration-300">
                   Is It Free?
                 </span>
-              </Link>
+              </Link> */}
             </div>
           </Card>
           <Card className="flex basis-1/3 flex-col gap-4 sm:p-12 p-6 relative overflow-hidden">
