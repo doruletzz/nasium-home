@@ -124,56 +124,56 @@ const ARTICLES = [
     slug: "article/upper-lower-split",
     title: "The Upper/Lower Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "This routine divides workouts between upper body and lower body days, typically alternating between them over 4 days a week to ensure balanced muscle development and recovery.",
     image: "/upper-lower-split.jpg",
   },
   {
     slug: "article/push-pull-legs-split",
     title: "The Push/Pull/Legs Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "This program splits workouts into push (chest, shoulders, triceps), pull (back, biceps), and legs (quads, hamstrings, calves), usually done over three to six days to target specific muscle groups efficiently.",
     image: "/push-pull-legs-split.jpg",
   },
   {
     slug: "article/bro-split",
     title: "The Bro Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      " A traditional bodybuilding routine, it dedicates one workout day per major muscle group (e.g., chest day, back day), allowing for focused training but often requiring a 5-6 day commitment per week.",
     image: "/bro-split.jpg",
   },
   {
     slug: "article/full-body-split",
     title: "The Full Body Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "Each workout session targets the entire body, incorporating compound exercises for all major muscle groups, ideal for beginners or those limited to 2-3 days per week.",
     image: "/fullbody-split.jpg",
   },
   {
     slug: "article/5x5-split",
     title: "The 5x5 Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "A strength-focused program involving five sets of five reps of major lifts like squats, deadlifts, and bench presses, emphasizing progression and heavy compound movements.",
     image: "/5x5-split.jpg",
   },
   {
     slug: "article/minimalist-split",
     title: "The Minimalist Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "Designed for efficiency, this routine focuses on essential compound movements (like squats, deadlifts, and presses) with fewer exercises and minimal equipment, suitable for those with limited time.",
     image: "/minimalist-split.jpg",
   },
   {
     slug: "article/minimalist-split",
     title: "The At-Home Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "Tailored for home workouts, this plan utilizes bodyweight exercises, resistance bands, or light weights, focusing on flexibility and convenience without sacrificing muscle development.",
     image: "/at-home-split.jpg",
   },
   {
     slug: "article/functional-split",
     title: "The Functional Split",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit assumenda...",
+      "This program prioritizes exercises that enhance functional strength and movement patterns, combining strength training with mobility, balance, and coordination exercises for overall physical capability.",
     image: "/functional-split.jpg",
   },
 ];
